@@ -1,0 +1,645 @@
+@font-face {
+  font-family: "OpenSans-Bold";
+  src: url("/src/./assets/fonts/OpenSans-Bold.eot");
+  src: url("/src/./assets/fonts/OpenSans-Bold.eot?#iefix") format("embedded-opentype"), url("/src/./assets/fonts/OpenSans-Bold..otf") format("otf"), url("/src/./assets/fonts/OpenSans-Bold.svg#OpenSans-Medium") format("svg"), url("/src/./assets/fonts/OpenSans-Bold.woff2") format("woff2"), url("/src/./assets/fonts/OpenSans-Bold.woff") format("woff"), url("/src/./assets/fonts/OpenSans-Bold..ttf") format("truetype");
+}
+@font-face {
+  font-family: "OpenSans-Light";
+  src: url("/src/./assets/fonts/OpenSans-Light.eot");
+  src: url("/src/./assets/fonts/OpenSans-Light.eot?#iefix") format("embedded-opentype"), url("/src/./assets/fonts/OpenSans-Light..otf") format("otf"), url("/src/./assets/fonts/OpenSans-Light.svg#OpenSans-Medium") format("svg"), url("/src/./assets/fonts/OpenSans-Light.woff2") format("woff2"), url("/src/./assets/fonts/OpenSans-Light.woff") format("woff"), url("/src/./assets/fonts/OpenSans-Light..ttf") format("truetype");
+}
+@font-face {
+  font-family: "OpenSans-Medium";
+  src: url("/src/./assets/fonts/OpenSans-Medium.eot");
+  src: url("/src/./assets/fonts/OpenSans-Medium.eot?#iefix") format("embedded-opentype"), url("/src/./assets/fonts/OpenSans-Medium..otf") format("otf"), url("/src/./assets/fonts/OpenSans-Medium.svg#OpenSans-Medium") format("svg"), url("/src/./assets/fonts/OpenSans-Medium.woff2") format("woff2"), url("/src/./assets/fonts/OpenSans-Medium.woff") format("woff"), url("/src/./assets/fonts/OpenSans-Medium..ttf") format("truetype");
+}
+@font-face {
+  font-family: "OpenSans-Regular";
+  src: url("/src/./assets/fonts/OpenSans-Regular.eot");
+  src: url("/src/./assets/fonts/OpenSans-Regular.eot?#iefix") format("embedded-opentype"), url("/src/./assets/fonts/OpenSans-Regular..otf") format("otf"), url("/src/./assets/fonts/OpenSans-Regular.svg#OpenSans-Medium") format("svg"), url("/src/./assets/fonts/OpenSans-Regular.woff2") format("woff2"), url("/src/./assets/fonts/OpenSans-Regular.woff") format("woff"), url("/src/./assets/fonts/OpenSans-Regular..ttf") format("truetype");
+}
+@font-face {
+  font-family: "OpenSans-SemiBold";
+  src: url("/src/./assets/fonts/OpenSans-SemiBold.eot");
+  src: url("/src/./assets/fonts/OpenSans-SemiBold.eot?#iefix") format("embedded-opentype"), url("/src/./assets/fonts/OpenSans-SemiBold..otf") format("otf"), url("/src/./assets/fonts/OpenSans-SemiBold.svg#OpenSans-Medium") format("svg"), url("/src/./assets/fonts/OpenSans-SemiBold.woff2") format("woff2"), url("/src/./assets/fonts/OpenSans-SemiBold.woff") format("woff"), url("/src/./assets/fonts/OpenSans-SemiBold..ttf") format("truetype");
+}
+@font-face {
+  font-family: "Oswald-Bold";
+  src: url("/src/./assets/fonts/Oswald-Bold.eot");
+  src: url("/src/./assets/fonts/Oswald-Bold.eot?#iefix") format("embedded-opentype"), url("/src/./assets/fonts/Oswald-Bold..otf") format("otf"), url("/src/./assets/fonts/Oswald-Bold.svg#OpenSans-Medium") format("svg"), url("/src/./assets/fonts/Oswald-Bold.woff2") format("woff2"), url("/src/./assets/fonts/Oswald-Bold.woff") format("woff"), url("/src/./assets/fonts/Oswald-Bold..ttf") format("truetype");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+ul,
+li,
+form,
+dl,
+dt,
+dd,
+ol,
+span,
+form {
+  padding: 0;
+  margin: 0;
+}
+
+input,
+input:focus {
+  background-color: none;
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
+button {
+  border: none;
+  background: none;
+  outline: none;
+}
+
+textarea {
+  border: none;
+  overflow: auto;
+  resize: none;
+  outline: none;
+}
+
+select {
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  cursor: pointer;
+}
+
+a,
+a:active,
+a:hover,
+a:focus {
+  text-decoration: none;
+  text-decoration-line: none;
+  outline: none;
+}
+
+.text {
+  font: 25/33 "OpenSans-Bold";
+  text-align: center;
+  color: #333134;
+}
+
+a,
+span,
+strong,
+b,
+select {
+  display: inline-block;
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+
+.container {
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.hero1 {
+  display: flex !important;
+  align-items: center !important;
+  /* Style for Previous button */
+  /* Style for Next button */
+}
+.hero1 img {
+  height: 430px !important;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.hero1 .captions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  justify-content: center;
+  height: 100%;
+  flex-direction: column;
+}
+.hero1 h5 {
+  font: 42px/50px "OpenSans-Bold";
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+  filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.5));
+  padding-bottom: 20px;
+}
+.hero1 p {
+  font: 24px/30px "OpenSans-Regular";
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+  filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.5));
+}
+.hero1 .carousel-control-prev {
+  width: 5%;
+}
+.hero1 .carousel-control-prev-icon {
+  background-image: url("../assets/images/prevIcon.svg");
+  background-size: 100% 100%;
+  height: 4rem;
+  width: 4rem;
+}
+.hero1 .carousel-control-next {
+  width: 5%;
+}
+.hero1 .carousel-control-next-icon {
+  background-image: url("../assets/images/nextIcon.svg");
+  background-size: 100% 100%;
+  height: 4rem;
+  width: 4rem;
+}
+
+.tabBlock {
+  position: relative;
+  top: -50px;
+}
+.tabBlock .container {
+  background-color: transparent;
+  padding: 0 60px;
+}
+.tabBlock .tabBarContainer {
+  display: flex;
+  justify-content: center;
+  transition: all 0.5s ease-in;
+}
+.tabBlock .tabBarContainer button {
+  background-color: #383636;
+  font: 14px/20px "OpenSans-Bold";
+  text-transform: uppercase;
+  color: #8c8c8c;
+  text-align: center;
+  padding: 8px 9px;
+}
+.tabBlock .tabBarContainer button:hover {
+  background-color: #ff873a;
+  color: #ffffff;
+  transition: all 0.5s ease-in;
+}
+.tabBlock .tabBarContainer button:nth-child(2) {
+  margin-inline: 3px;
+}
+.tabBlock .tabContents {
+  width: 100%;
+  padding-inline: 40px;
+  background-color: #373736;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  justify-content: center;
+}
+.tabBlock .tabContents .tanForms {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: all 0.5s ease-in;
+  justify-content: center;
+  width: 100%;
+  gap: 10px;
+}
+@media (max-width: 767px) {
+  .tabBlock .tabContents .tanForms {
+    flex-direction: column;
+  }
+}
+.tabBlock .tabContents .tanForms .inp {
+  padding-block: 5px;
+  border-radius: 2px;
+  padding-inline: 5px;
+}
+
+.videoSection {
+  padding: 30px 0 70px 0;
+  border-bottom: 0.5px solid #e9e9e9;
+}
+.videoSection .videoBlock {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+@media (max-width: 650px) {
+  .videoSection .videoBlock {
+    flex-direction: column;
+  }
+}
+.videoSection .videoBlock .leftBlock {
+  width: 55%;
+  display: flex;
+  justify-content: flex-start;
+  height: 100%;
+}
+@media (max-width: 650px) {
+  .videoSection .videoBlock .leftBlock {
+    width: 100%;
+  }
+}
+.videoSection .videoBlock .leftBlock div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: "column";
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-right: 50px;
+  padding-block: 15px;
+}
+.videoSection .videoBlock .leftBlock div h4 {
+  font: 62px/54px "OpenSans-Bold";
+  text-transform: uppercase;
+  color: #363437;
+  text-align: left;
+  padding-bottom: 35px;
+  position: relative;
+}
+.videoSection .videoBlock .leftBlock div h4 span {
+  display: block;
+}
+.videoSection .videoBlock .leftBlock div h4::before {
+  background-color: #363437;
+  content: "";
+  height: 5px;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  transition: all 300ms;
+  width: 70px;
+}
+.videoSection .videoBlock .leftBlock div p {
+  font: 18px/28px "OpenSans-Regular";
+  color: #8c8c8c;
+  text-align: left;
+  margin: 45px 0 0 0;
+}
+.videoSection .videoBlock .rightBlock div {
+  width: 500px;
+  height: 347px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: "row";
+  position: relative;
+}
+@media (max-width: 650px) {
+  .videoSection .videoBlock .rightBlock div {
+    width: 100%;
+  }
+}
+.videoSection .videoBlock .rightBlock div button {
+  width: 65px;
+  height: 65px;
+  border-radius: 40px;
+  background-color: #e9e9e9;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: "row";
+}
+.videoSection .videoBlock .rightBlock div button .play {
+  width: 30 !important;
+  height: 30 !important;
+}
+.videoSection .videoBlock .rightBlock div video {
+  width: 500px;
+  height: 347px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: "row";
+}
+@media (max-width: 650px) {
+  .videoSection .videoBlock .rightBlock div video {
+    width: 100%;
+  }
+}
+
+.textSuggestion {
+  padding: 70px 0;
+}
+.textSuggestion .container {
+  width: 100%;
+}
+.textSuggestion .container .textWrapper {
+  padding-right: 35px;
+}
+.textSuggestion .container .textWrapper .top {
+  padding: 0 0 60px 0;
+}
+.textSuggestion .container .textWrapper .top h2 {
+  font: 30px/54px "OpenSans-SemiBold";
+  color: #363437;
+}
+.textSuggestion .container .textWrapper .top p {
+  font: 16px/28px "OpenSans-Regular";
+  color: #8c8c8c;
+}
+.textSuggestion .container .textWrapper .bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media (max-width: 650px) {
+  .textSuggestion .container .textWrapper .bottom {
+    flex-direction: column;
+  }
+}
+.textSuggestion .container .textWrapper .bottom .card {
+  border: 0;
+  border-radius: 0;
+  width: 33.33%;
+}
+@media (max-width: 650px) {
+  .textSuggestion .container .textWrapper .bottom .card {
+    width: 100%;
+  }
+}
+.textSuggestion .container .textWrapper .bottom .card:nth-child(even) {
+  border-inline: 0.4px solid #e9e9e9;
+  padding-inline: 20px;
+  margin-inline: 20px;
+}
+.textSuggestion .container .textWrapper .bottom .card .sideHead {
+  font: 18px/28px "OpenSans-SemiBold";
+  color: #363437;
+}
+.textSuggestion .container .textWrapper .bottom .card .sideHead span {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-color: #e9e9e9;
+  border-radius: 15px;
+  text-align: center;
+  margin-right: 10px;
+}
+.textSuggestion .container .textWrapper .bottom .card .content {
+  font: 16px/24px "OpenSans-Light";
+  color: #8c8c8c;
+}
+
+.carosal1Section {
+  background-color: #f7f7f7;
+  padding: 70px 0;
+}
+.carosal1Section .container {
+  overflow: hidden;
+  background-color: transparent;
+}
+.carosal1Section .container .carosalContainer {
+  position: relative;
+}
+.carosal1Section .container .carosalContainer .topHead {
+  padding: 0 0 20px 0;
+}
+.carosal1Section .container .carosalContainer .topHead p {
+  font: 30px/54px "OpenSans-Bold";
+  color: #363437;
+}
+.carosal1Section .container .carosalContainer .bottomBlock .swiper {
+  overflow: visible;
+}
+.carosal1Section .container .carosalContainer .bottomBlock .swiper .swiper-slide.swiper-slide-active {
+  border-radius: 0;
+}
+.carosal1Section .container .carosalContainer .bottomBlock .swiper .swiper-slide .card {
+  border: 0;
+  background-color: transparent;
+}
+.carosal1Section .container .carosalContainer .bottomBlock .swiper .swiper-slide .card .imgWrapper {
+  position: relative;
+  position: relative;
+}
+.carosal1Section .container .carosalContainer .bottomBlock .swiper .swiper-slide .card .imgWrapper:hover .hoverContent {
+  background-color: rgba(244, 146, 82, 0.6);
+}
+.carosal1Section .container .carosalContainer .bottomBlock .swiper .swiper-slide .card .imgWrapper:hover .hoverContent button {
+  opacity: 1;
+}
+.carosal1Section .container .carosalContainer .bottomBlock .swiper .swiper-slide .card .imgWrapper:hover .hoverContent .hovImg {
+  -o-object-fit: contain;
+     object-fit: contain;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.carosal1Section .container .carosalContainer .bottomBlock .swiper .swiper-slide .card .imgWrapper img {
+  width: 100%;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.carosal1Section .container .carosalContainer .bottomBlock .swiper .swiper-slide .card .imgWrapper .hoverContent {
+  transition: all 0.5s ease-in;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  width: 100%;
+  opacity: 1;
+}
+.carosal1Section .container .carosalContainer .bottomBlock .swiper .swiper-slide .card .imgWrapper .hoverContent .hovImg {
+  width: 100px;
+  height: 60px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  transition: all 0.5s ease-in;
+}
+.carosal1Section .container .carosalContainer .bottomBlock .swiper .swiper-slide .card .imgWrapper .hoverContent button {
+  padding: 10px 20px;
+  background-color: #ffffff;
+  border-radius: 2px;
+  opacity: 0;
+}
+.carosal1Section .container .carosalContainer .bottomBlock .swiper .swiper-slide .card .content {
+  font: 16px/21px "OpenSans-Bold";
+  color: #363437;
+  padding-top: 20px;
+}
+.carosal1Section .container .carosalContainer .bottomBlock .swiper .swiper-slide .card .location {
+  font: 16px/20px "OpenSans-Light";
+  color: #8c8c8c;
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+}
+.carosal1Section .container .carosalContainer .bottomBlock .swiper .swiper-slide .card .location span {
+  padding-right: 5px;
+  margin: 0;
+}
+.carosal1Section .container .carosalContainer .bottomBlock .swiper .swiper-slide .ratingcard {
+  background-color: #ffffff;
+  position: relative;
+  padding: 15px 0 0 0;
+}
+.carosal1Section .container .carosalContainer .bottomBlock .swiper .swiper-slide .ratingcard .ratingTag {
+  display: inline-block;
+  width: 215px;
+  height: 50px;
+  border-bottom: 30px solid #ff873a;
+  border-right: 10px solid transparent;
+  border-top: 30px solid #ff873a;
+  padding-left: 40px;
+  font: 17px/11px "Oswald-Bold";
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+.carosal1Section .container .carosalContainer .bottomBlock .swiper .swiper-slide .ratingcard .bottomContent {
+  padding: 30px 20px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.carosal1Section .container .carosalContainer .bottomBlock .swiper .swiper-slide .ratingcard .bottomContent .sideHead {
+  font: 18px/21px "OpenSans-SemiBold";
+  color: #383636;
+}
+.carosal1Section .container .carosalContainer .bottomBlock .swiper .swiper-slide .ratingcard .bottomContent .body {
+  font: 16px/24px "OpenSans-Light";
+  color: #8c8c8c;
+}
+.carosal1Section .container .carosalContainer .bottomBlock .swiper .swiper-slide .ratingcard .bottomContent .ratingStar {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  width: 100%;
+}
+.carosal1Section .container .carosalContainer .bottomBlock .swiper .swiper-slide .ratingcard .bottomContent .ratingStar p {
+  font: 39px/11px "Oswald-Bold";
+  color: #57555e;
+}
+.carosal1Section .container .carosalContainer .swiper-button-next {
+  position: unset;
+}
+.carosal1Section .container .carosalContainer .swiper-button-next::after {
+  background-color: #8c8c8c;
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+  background-image: url("../assets/images/arrowNext.png");
+  background-repeat: no-repeat;
+  background-size: 10px 10px contain;
+  background-position: center;
+  position: absolute;
+  top: -85px;
+  bottom: 0;
+  left: 1100;
+  right: 0;
+  border-radius: 0 3px 3px 0;
+  z-index: 5;
+  font-size: 0;
+}
+.carosal1Section .container .carosalContainer .swiper-button-next::after::before {
+  color: transparent;
+}
+.carosal1Section .container .carosalContainer .swiper-button-next::after:hover {
+  background-color: #c2c2c2;
+  transition: all 0.5s ease-in;
+}
+.carosal1Section .container .carosalContainer .swiper-button-prev {
+  position: unset;
+}
+.carosal1Section .container .carosalContainer .swiper-button-prev::after {
+  background-color: #8c8c8c;
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+  background-image: url("../assets/images/arrowPrev.png");
+  background-repeat: no-repeat;
+  background-size: 10px 10px contain;
+  background-position: center;
+  position: absolute;
+  top: -85px;
+  bottom: 0;
+  left: 1050x;
+  right: 28px;
+  margin-right: 5px;
+  border-radius: 3px 0 0 3px;
+  z-index: 5;
+  font-size: 0;
+}
+.carosal1Section .container .carosalContainer .swiper-button-prev::after::before {
+  color: transparent;
+}
+.carosal1Section .container .carosalContainer .swiper-button-prev::after:hover {
+  background-color: #c2c2c2;
+  transition: all 0.5s ease-in;
+}
+
+.heroSection2 {
+  position: relative;
+}
+.heroSection2 .hoverBanner {
+  height: 400px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+.heroSection2:hover {
+  transition: all 0.5s ease-in;
+}
+.heroSection2 .container {
+  position: relative;
+  z-index: 4;
+}
+.heroSection2 .container .hero2Block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 400px;
+  width: 100%;
+}
+.heroSection2 .container .hero2Block h1 {
+  font: 44px/54px "OpenSans-Bold";
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.heroSection2 .container .hero2Block p {
+  font: 21px/54px "OpenSans-Light";
+  color: #ffffff;
+}
+.heroSection2 .container .hero2Block button {
+  font: 18px "OpenSans-Bold";
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #ff873a;
+  padding: 5px 10px;
+  border-radius: 3px;
+}/*# sourceMappingURL=Home.css.map */

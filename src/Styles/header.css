@@ -1,0 +1,284 @@
+@font-face {
+  font-family: "OpenSans-Bold";
+  src: url("/src/./assets/fonts/OpenSans-Bold.eot");
+  src: url("/src/./assets/fonts/OpenSans-Bold.eot?#iefix") format("embedded-opentype"), url("/src/./assets/fonts/OpenSans-Bold..otf") format("otf"), url("/src/./assets/fonts/OpenSans-Bold.svg#OpenSans-Medium") format("svg"), url("/src/./assets/fonts/OpenSans-Bold.woff2") format("woff2"), url("/src/./assets/fonts/OpenSans-Bold.woff") format("woff"), url("/src/./assets/fonts/OpenSans-Bold..ttf") format("truetype");
+}
+@font-face {
+  font-family: "OpenSans-Light";
+  src: url("/src/./assets/fonts/OpenSans-Light.eot");
+  src: url("/src/./assets/fonts/OpenSans-Light.eot?#iefix") format("embedded-opentype"), url("/src/./assets/fonts/OpenSans-Light..otf") format("otf"), url("/src/./assets/fonts/OpenSans-Light.svg#OpenSans-Medium") format("svg"), url("/src/./assets/fonts/OpenSans-Light.woff2") format("woff2"), url("/src/./assets/fonts/OpenSans-Light.woff") format("woff"), url("/src/./assets/fonts/OpenSans-Light..ttf") format("truetype");
+}
+@font-face {
+  font-family: "OpenSans-Medium";
+  src: url("/src/./assets/fonts/OpenSans-Medium.eot");
+  src: url("/src/./assets/fonts/OpenSans-Medium.eot?#iefix") format("embedded-opentype"), url("/src/./assets/fonts/OpenSans-Medium..otf") format("otf"), url("/src/./assets/fonts/OpenSans-Medium.svg#OpenSans-Medium") format("svg"), url("/src/./assets/fonts/OpenSans-Medium.woff2") format("woff2"), url("/src/./assets/fonts/OpenSans-Medium.woff") format("woff"), url("/src/./assets/fonts/OpenSans-Medium..ttf") format("truetype");
+}
+@font-face {
+  font-family: "OpenSans-Regular";
+  src: url("/src/./assets/fonts/OpenSans-Regular.eot");
+  src: url("/src/./assets/fonts/OpenSans-Regular.eot?#iefix") format("embedded-opentype"), url("/src/./assets/fonts/OpenSans-Regular..otf") format("otf"), url("/src/./assets/fonts/OpenSans-Regular.svg#OpenSans-Medium") format("svg"), url("/src/./assets/fonts/OpenSans-Regular.woff2") format("woff2"), url("/src/./assets/fonts/OpenSans-Regular.woff") format("woff"), url("/src/./assets/fonts/OpenSans-Regular..ttf") format("truetype");
+}
+@font-face {
+  font-family: "OpenSans-SemiBold";
+  src: url("/src/./assets/fonts/OpenSans-SemiBold.eot");
+  src: url("/src/./assets/fonts/OpenSans-SemiBold.eot?#iefix") format("embedded-opentype"), url("/src/./assets/fonts/OpenSans-SemiBold..otf") format("otf"), url("/src/./assets/fonts/OpenSans-SemiBold.svg#OpenSans-Medium") format("svg"), url("/src/./assets/fonts/OpenSans-SemiBold.woff2") format("woff2"), url("/src/./assets/fonts/OpenSans-SemiBold.woff") format("woff"), url("/src/./assets/fonts/OpenSans-SemiBold..ttf") format("truetype");
+}
+@font-face {
+  font-family: "Oswald-Bold";
+  src: url("/src/./assets/fonts/Oswald-Bold.eot");
+  src: url("/src/./assets/fonts/Oswald-Bold.eot?#iefix") format("embedded-opentype"), url("/src/./assets/fonts/Oswald-Bold..otf") format("otf"), url("/src/./assets/fonts/Oswald-Bold.svg#OpenSans-Medium") format("svg"), url("/src/./assets/fonts/Oswald-Bold.woff2") format("woff2"), url("/src/./assets/fonts/Oswald-Bold.woff") format("woff"), url("/src/./assets/fonts/Oswald-Bold..ttf") format("truetype");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+ul,
+li,
+form,
+dl,
+dt,
+dd,
+ol,
+span,
+form {
+  padding: 0;
+  margin: 0;
+}
+
+input,
+input:focus {
+  background-color: none;
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
+button {
+  border: none;
+  background: none;
+  outline: none;
+}
+
+textarea {
+  border: none;
+  overflow: auto;
+  resize: none;
+  outline: none;
+}
+
+select {
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  cursor: pointer;
+}
+
+a,
+a:active,
+a:hover,
+a:focus {
+  text-decoration: none;
+  text-decoration-line: none;
+  outline: none;
+}
+
+.text {
+  font: 25/33 "OpenSans-Bold";
+  text-align: center;
+  color: #333134;
+}
+
+a,
+span,
+strong,
+b,
+select {
+  display: inline-block;
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+
+.container {
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  padding-block: 15px;
+}
+.header img {
+  width: 260px;
+  height: 85px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+@media (max-width: 350px) {
+  .header img {
+    width: 160px;
+  }
+}
+.header .headerRight {
+  display: flex;
+  align-self: flex-end;
+  flex-direction: column;
+}
+.header .headerRight .top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: end;
+}
+@media (max-width: 767px) {
+  .header .headerRight .top {
+    display: none;
+  }
+}
+@media (max-width: 881px) {
+  .header .headerRight .top {
+    display: none;
+  }
+}
+.header .headerRight .top p {
+  font: 15px/24px "OpenSans-Light";
+  color: #8c8c8c;
+  font-weight: 300;
+  text-align: left;
+}
+@media (max-width: 767px) {
+  .header .headerRight .top p {
+    display: none;
+  }
+}
+.header .headerRight .top .flag {
+  width: 15px;
+  height: 8px;
+}
+.header .headerRight .top .flagDrop {
+  margin-left: 20px;
+  padding-inline: 10px;
+  padding: block 8px;
+  background-color: #f4f4f4;
+  border-radius: 4px;
+}
+@media (max-width: 767px) {
+  .header .headerRight .bottom {
+    display: none;
+  }
+}
+@media (max-width: 881px) {
+  .header .headerRight .bottom {
+    display: none;
+  }
+}
+.header .headerRight .bottom ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+.header .headerRight .bottom ul li {
+  font: 15px/20px "OpenSans-Bold";
+  text-transform: uppercase;
+  color: #363437;
+  text-align: left;
+}
+.header .headerRight .bottom ul li:hover {
+  color: #ff873a;
+  transition: all 0.5s ease-in;
+}
+.header .headerRight .bottom ul .dropBtn {
+  display: inline-block;
+  font: 15px/20px "OpenSans-Bold";
+  text-transform: uppercase;
+  color: #363437;
+}
+.header .headerRight .bottom ul .dropBtn .btnParent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .headerRight .bottom ul .dropBtn:hover {
+  color: #ff873a;
+  transition: all 0.5s ease-in;
+}
+.header .headerRight .bottom ul .dropBtn:hover .dropDownContent {
+  display: block;
+  transition: all 0.5s ease-in;
+  box-shadow: 0 1px 1px 0px rgba(0, 0, 0, 0.2);
+}
+.header .headerRight .bottom ul .dropBtn:hover .dropDownContent a {
+  display: block;
+}
+.header .headerRight .bottom ul .dropBtn .dropIcon {
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+}
+.header .headerRight .bottom ul .dropDownContent {
+  display: none;
+  min-width: 150px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  z-index: 1;
+  background-color: #ffffff;
+}
+.header .headerRight .bottom ul .dropDownContent a {
+  text-decoration-line: none;
+  padding: 5px 5px;
+  display: none;
+  font: 15px/20px "OpenSans-Light";
+  color: #8c8c8c;
+  text-align: left;
+}
+.header .headerRight .bottom ul .dropDownContent a:hover {
+  color: #ff873a;
+}
+.header .responsiveMenu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .responsiveMenu .menuIcon {
+  display: none;
+}
+@media (max-width: 767px) {
+  .header .responsiveMenu .menuIcon {
+    display: block;
+  }
+}
+@media (max-width: 881px) {
+  .header .responsiveMenu .menuIcon {
+    display: block;
+  }
+}
+.header .responsiveMenu .flagDrop {
+  display: none;
+  margin: 0 10px 0 0;
+}
+@media (max-width: 767px) {
+  .header .responsiveMenu .flagDrop {
+    display: block;
+  }
+}
+@media (max-width: 881px) {
+  .header .responsiveMenu .flagDrop {
+    display: block;
+  }
+}/*# sourceMappingURL=header.css.map */

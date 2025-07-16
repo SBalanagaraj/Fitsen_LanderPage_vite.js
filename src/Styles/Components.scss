@@ -1,0 +1,80 @@
+@import "../Styles/index.scss";
+
+// custom Input Component
+.customInput {
+  overflow: hidden;
+  padding: 10px 10px;
+  border-radius: 3px;
+  @include elementCenter("row");
+  background-color: $white;
+  input {
+    font: 15px $SR;
+    color: $greyDarkBg;
+    display: flex;
+    width: 100%;
+  }
+}
+
+// ButtonComponent
+.btnComponent {
+  overflow: hidden;
+  border-radius: 3px;
+  padding: 10px 10px;
+  background-color: $orangeBg;
+  font: 17px/20px $SB;
+  text-transform: uppercase;
+  color: #ffffff;
+  @include center();
+  @include trans();
+
+  &:hover {
+    background-color: $white;
+    color: $textBlack;
+  }
+}
+
+// .dropDownStyle
+.dropDownParent {
+  position: relative;
+  &:hover {
+    .dropDownContent {
+      display: block;
+      transition: all 0.8s linear;
+    }
+  }
+  .customDropDown {
+    @include center();
+    border-radius: 3px;
+    padding: 10px 10px;
+    background-color: $white;
+    span {
+      font: 15px/24px $SR;
+      color: $greyDarkBg;
+      display: flex;
+      width: 100%;
+    }
+  }
+  .dropDownContent {
+    display: none;
+    background-color: $white;
+    position: absolute;
+    margin-top: 4px;
+    min-width: 100%;
+    box-shadow: 1px 2px 3px $textBlack;
+    border-radius: 3px;
+    a {
+      float: left;
+      display: block;
+      min-width: 100%;
+      padding: 5px 10px;
+      text-decoration-line: none;
+      padding: 5px 5px;
+      font: 15px/20px "OpenSans-Light";
+      color: #8c8c8c;
+      text-align: left;
+      &:hover {
+        color: $orangeBg;
+      }
+    }
+  }
+}

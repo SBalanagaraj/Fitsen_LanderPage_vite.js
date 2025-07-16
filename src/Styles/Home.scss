@@ -1,0 +1,520 @@
+@import "../Styles/index.scss";
+
+// hero section Styles
+.hero1 {
+  display: flex !important;
+  align-items: center !important;
+  img {
+    height: 430px !important;
+    object-fit: cover;
+  }
+  .captions {
+    @include center();
+    justify-content: center;
+    height: 100%;
+    flex-direction: column;
+  }
+  h5 {
+    font: 42px/50px $SB;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.5));
+    padding-bottom: 20px;
+  }
+  p {
+    font: 24px/30px $SR;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.5));
+  }
+  /* Style for Previous button */
+  .carousel-control-prev {
+    width: 5%;
+  }
+
+  .carousel-control-prev-icon {
+    background-image: url("../assets/images/prevIcon.svg");
+    background-size: 100% 100%;
+    height: 4rem;
+    width: 4rem;
+  }
+
+  /* Style for Next button */
+  .carousel-control-next {
+    width: 5%;
+  }
+
+  .carousel-control-next-icon {
+    background-image: url("../assets/images/nextIcon.svg");
+    background-size: 100% 100%;
+    height: 4rem;
+    width: 4rem;
+  }
+}
+// Tab BarStyles
+.tabBlock {
+  position: relative;
+  top: -50px;
+
+  .container {
+    background-color: transparent;
+    padding: 0 60px;
+  }
+  .tabBarContainer {
+    display: flex;
+    justify-content: center;
+    @include trans();
+
+    button {
+      // width: 225px;
+      // height: 50px;
+      background-color: $tabBgBlack;
+      font: 14px/20px $SB;
+      text-transform: uppercase;
+      color: $greyDarkBg;
+      text-align: center;
+      padding: 8px 9px;
+      &:hover {
+        background-color: $orangeBg;
+        color: #ffffff;
+        @include trans();
+      }
+      &:nth-child(2) {
+        margin-inline: 3px;
+      }
+    }
+  }
+  .tabContents {
+    width: 100%;
+    // height: 120px;
+    padding-inline: 40px;
+    background-color: $tanContentBg;
+    @include center();
+    justify-content: center;
+    // .container {
+    .tanForms {
+      @include center();
+      @include trans();
+      justify-content: center;
+      width: 100%;
+      gap: 10px;
+      @include tab-port() {
+        flex-direction: column;
+      }
+
+      .inp {
+        padding-block: 5px;
+        border-radius: 2px;
+        padding-inline: 5px;
+      }
+    }
+    // }
+  }
+}
+
+// video Container
+.videoSection {
+  padding: 30px 0 70px 0;
+  border-bottom: 0.5px solid $geryMediumBg;
+  .videoBlock {
+    @include center();
+    align-items: flex-start;
+    @include phone() {
+      flex-direction: column;
+    }
+    .leftBlock {
+      width: 55%;
+      display: flex;
+      justify-content: flex-start;
+      height: 100%;
+      @include phone() {
+        width: 100%;
+      }
+      div {
+        width: 100%;
+        @include elementCenter("column");
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+        margin-right: 50px;
+        padding-block: 15px;
+        h4 {
+          font: 62px/54px $SB;
+          text-transform: uppercase;
+          color: $textBlack;
+          text-align: left;
+          padding-bottom: 35px;
+          position: relative;
+          span {
+            display: block;
+          }
+          &::before {
+            background-color: $textBlack;
+            content: "";
+            height: 5px;
+            position: absolute;
+            bottom: 0px;
+            left: 0;
+            right: 0;
+            transition: all 300ms;
+            width: 70px;
+          }
+        }
+        p {
+          font: 18px/28px $SR;
+          color: $greyDarkBg;
+          text-align: left;
+          margin: 45px 0 0 0;
+        }
+      }
+    }
+    .rightBlock {
+      div {
+        width: 500px;
+        height: 347px;
+        @include elementCenter("row");
+        position: relative;
+        @include phone() {
+          width: 100%;
+        }
+        button {
+          width: 65px;
+          height: 65px;
+          border-radius: 40px;
+          background-color: $geryMediumBg;
+          position: absolute;
+          @include elementCenter("row");
+
+          .play {
+            width: 30 !important;
+            height: 30 !important;
+          }
+        }
+        video {
+          width: 500px;
+          height: 347px;
+          object-fit: cover;
+          border: none;
+          @include elementCenter("row");
+          @include phone() {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+
+// text Suggestion
+.textSuggestion {
+  padding: 70px 0;
+  .container {
+    width: 100%;
+    .textWrapper {
+      padding-right: 35px;
+      .top {
+        padding: 0 0 60px 0;
+        h2 {
+          font: 30px/54px $SSB;
+          color: $textBlack;
+        }
+        p {
+          font: 16px/28px $SR;
+          color: $greyDarkBg;
+        }
+      }
+      .bottom {
+        @include center();
+        @include phone() {
+          flex-direction: column;
+        }
+        .card {
+          border: 0;
+          border-radius: 0;
+          width: 33.33%;
+          @include phone() {
+            width: 100%;
+          }
+          &:nth-child(even) {
+            border-inline: 0.4px solid $geryMediumBg;
+            padding-inline: 20px;
+            margin-inline: 20px;
+          }
+
+          .sideHead {
+            font: 18px/28px $SSB;
+            color: $textBlack;
+
+            span {
+              display: inline-block;
+              width: 30px;
+              height: 30px;
+              background-color: $geryMediumBg;
+              border-radius: 15px;
+              text-align: center;
+              margin-right: 10px;
+            }
+          }
+          .content {
+            font: 16px/24px $SL;
+            color: $greyDarkBg;
+          }
+        }
+      }
+    }
+  }
+}
+
+// Carosal1Section
+
+.carosal1Section {
+  background-color: $carosalbg;
+  padding: 70px 0;
+  .container {
+    overflow: hidden;
+    background-color: transparent;
+    .carosalContainer {
+      position: relative;
+      .topHead {
+        padding: 0 0 20px 0;
+        p {
+          font: 30px/54px $SB;
+          color: $textBlack;
+        }
+      }
+      .bottomBlock {
+        .swiper {
+          overflow: visible;
+          .swiper-slide {
+            &.swiper-slide-active {
+              border-radius: 0;
+            }
+
+            // image Carosal
+            .card {
+              border: 0;
+              background-color: transparent;
+              .imgWrapper {
+                position: relative;
+
+                &:hover {
+                  .hoverContent {
+                    background-color: rgb(244 146 82 / 60%);
+                    button {
+                      opacity: 1;
+                    }
+                    .hovImg {
+                      object-fit: contain;
+                      top: 50%;
+                      left: 50%;
+                      transform: translate(-50%, -50%);
+                    }
+                  }
+                }
+                position: relative;
+                img {
+                  width: 100%;
+                  height: 200px;
+                  object-fit: cover;
+                }
+                .hoverContent {
+                  @include trans();
+                  position: absolute;
+                  top: 0;
+                  right: 0;
+                  left: 0;
+                  bottom: 0;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  background-color: transparent;
+                  width: 100%;
+                  // height: 200px;
+                  opacity: 1;
+                  .hovImg {
+                    width: 100px;
+                    height: 60px;
+                    object-fit: contain;
+                    position: absolute;
+                    bottom: 10px;
+                    right: 10px;
+                    @include trans();
+                  }
+                  button {
+                    padding: 10px 20px;
+                    background-color: $white;
+                    border-radius: 2px;
+                    opacity: 0;
+                  }
+                }
+              }
+              .content {
+                font: 16px/21px $SB;
+                color: $textBlack;
+                padding-top: 20px;
+              }
+              .location {
+                font: 16px/20px $SL;
+                color: $greyDarkBg;
+                display: flex;
+                align-items: center;
+                padding-top: 10px;
+                span {
+                  padding-right: 5px;
+                  margin: 0;
+                }
+              }
+            }
+            // rating Tag Carosal
+            .ratingcard {
+              background-color: $white;
+              position: relative;
+              padding: 15px 0 0 0;
+              .ratingTag {
+                display: inline-block;
+                width: 215px;
+                height: 50px;
+                border-bottom: 30px solid $orangeBg;
+                border-right: 10px solid transparent;
+                border-top: 30px solid $orangeBg;
+                padding-left: 40px;
+                font: 17px/11px $OB;
+                color: $white;
+                display: flex;
+                align-items: center;
+              }
+              .bottomContent {
+                padding: 30px 20px;
+                display: flex;
+                align-items: flex-start;
+                flex-direction: column;
+                .sideHead {
+                  font: 18px/21px $SSB;
+                  color: $tabBgBlack;
+                }
+                .body {
+                  font: 16px/24px $SL;
+                  color: $greyDarkBg;
+                }
+                .ratingStar {
+                  display: flex;
+                  align-items: baseline;
+                  justify-content: space-between;
+                  width: 100%;
+                  p {
+                    font: 39px/11px $OB;
+                    color: $ratingText;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      @mixin btn($image) {
+        background-color: $greyDarkBg;
+        width: 30px;
+        height: 30px;
+        padding: 10px;
+        background-image: $image;
+        background-repeat: no-repeat;
+        background-size: 10px 10px contain;
+        background-position: center;
+
+        &::before {
+          color: transparent;
+        }
+      }
+
+      .swiper-button-next {
+        position: unset;
+
+        &::after {
+          @include btn(url("../assets/images/arrowNext.png"));
+          position: absolute;
+          top: -85px;
+          bottom: 0;
+          left: 1100;
+          right: 0;
+          border-radius: 0 3px 3px 0;
+          z-index: 5;
+          font-size: 0;
+          &:hover {
+            background-color: $greyLightBg;
+            @include trans();
+          }
+        }
+      }
+      .swiper-button-prev {
+        position: unset;
+
+        &::after {
+          @include btn(url("../assets/images/arrowPrev.png"));
+          position: absolute;
+          top: -85px;
+          bottom: 0;
+          left: 1050x;
+          right: 28px;
+          margin-right: 5px;
+          border-radius: 3px 0 0 3px;
+          z-index: 5;
+          font-size: 0;
+          &:hover {
+            background-color: $greyLightBg;
+            @include trans();
+          }
+        }
+      }
+    }
+  }
+}
+
+// HeroSection2
+.heroSection2 {
+  position: relative;
+  .hoverBanner {
+    height: 400px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  }
+  &:hover {
+    @include trans();
+  }
+
+  .container {
+    position: relative;
+    z-index: 4;
+    .hero2Block {
+      @include elementCenter(column);
+      height: 400px;
+      width: 100%;
+
+      h1 {
+        font: 44px/54px $SB;
+        text-transform: uppercase;
+        color: $white;
+      }
+
+      p {
+        font: 21px/54px $SL;
+        color: $white;
+      }
+
+      button {
+        font: 18px $SB;
+        text-transform: uppercase;
+        color: $white;
+        background-color: $orangeBg;
+        padding: 5px 10px;
+        border-radius: 3px;
+        // opacity: 0.5;
+      }
+    }
+  }
+}

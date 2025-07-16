@@ -1,0 +1,197 @@
+@font-face {
+  font-family: "OpenSans-Bold";
+  src: url("/src/./assets/fonts/OpenSans-Bold.eot");
+  src: url("/src/./assets/fonts/OpenSans-Bold.eot?#iefix") format("embedded-opentype"), url("/src/./assets/fonts/OpenSans-Bold..otf") format("otf"), url("/src/./assets/fonts/OpenSans-Bold.svg#OpenSans-Medium") format("svg"), url("/src/./assets/fonts/OpenSans-Bold.woff2") format("woff2"), url("/src/./assets/fonts/OpenSans-Bold.woff") format("woff"), url("/src/./assets/fonts/OpenSans-Bold..ttf") format("truetype");
+}
+@font-face {
+  font-family: "OpenSans-Light";
+  src: url("/src/./assets/fonts/OpenSans-Light.eot");
+  src: url("/src/./assets/fonts/OpenSans-Light.eot?#iefix") format("embedded-opentype"), url("/src/./assets/fonts/OpenSans-Light..otf") format("otf"), url("/src/./assets/fonts/OpenSans-Light.svg#OpenSans-Medium") format("svg"), url("/src/./assets/fonts/OpenSans-Light.woff2") format("woff2"), url("/src/./assets/fonts/OpenSans-Light.woff") format("woff"), url("/src/./assets/fonts/OpenSans-Light..ttf") format("truetype");
+}
+@font-face {
+  font-family: "OpenSans-Medium";
+  src: url("/src/./assets/fonts/OpenSans-Medium.eot");
+  src: url("/src/./assets/fonts/OpenSans-Medium.eot?#iefix") format("embedded-opentype"), url("/src/./assets/fonts/OpenSans-Medium..otf") format("otf"), url("/src/./assets/fonts/OpenSans-Medium.svg#OpenSans-Medium") format("svg"), url("/src/./assets/fonts/OpenSans-Medium.woff2") format("woff2"), url("/src/./assets/fonts/OpenSans-Medium.woff") format("woff"), url("/src/./assets/fonts/OpenSans-Medium..ttf") format("truetype");
+}
+@font-face {
+  font-family: "OpenSans-Regular";
+  src: url("/src/./assets/fonts/OpenSans-Regular.eot");
+  src: url("/src/./assets/fonts/OpenSans-Regular.eot?#iefix") format("embedded-opentype"), url("/src/./assets/fonts/OpenSans-Regular..otf") format("otf"), url("/src/./assets/fonts/OpenSans-Regular.svg#OpenSans-Medium") format("svg"), url("/src/./assets/fonts/OpenSans-Regular.woff2") format("woff2"), url("/src/./assets/fonts/OpenSans-Regular.woff") format("woff"), url("/src/./assets/fonts/OpenSans-Regular..ttf") format("truetype");
+}
+@font-face {
+  font-family: "OpenSans-SemiBold";
+  src: url("/src/./assets/fonts/OpenSans-SemiBold.eot");
+  src: url("/src/./assets/fonts/OpenSans-SemiBold.eot?#iefix") format("embedded-opentype"), url("/src/./assets/fonts/OpenSans-SemiBold..otf") format("otf"), url("/src/./assets/fonts/OpenSans-SemiBold.svg#OpenSans-Medium") format("svg"), url("/src/./assets/fonts/OpenSans-SemiBold.woff2") format("woff2"), url("/src/./assets/fonts/OpenSans-SemiBold.woff") format("woff"), url("/src/./assets/fonts/OpenSans-SemiBold..ttf") format("truetype");
+}
+@font-face {
+  font-family: "Oswald-Bold";
+  src: url("/src/./assets/fonts/Oswald-Bold.eot");
+  src: url("/src/./assets/fonts/Oswald-Bold.eot?#iefix") format("embedded-opentype"), url("/src/./assets/fonts/Oswald-Bold..otf") format("otf"), url("/src/./assets/fonts/Oswald-Bold.svg#OpenSans-Medium") format("svg"), url("/src/./assets/fonts/Oswald-Bold.woff2") format("woff2"), url("/src/./assets/fonts/Oswald-Bold.woff") format("woff"), url("/src/./assets/fonts/Oswald-Bold..ttf") format("truetype");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+ul,
+li,
+form,
+dl,
+dt,
+dd,
+ol,
+span,
+form {
+  padding: 0;
+  margin: 0;
+}
+
+input,
+input:focus {
+  background-color: none;
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
+button {
+  border: none;
+  background: none;
+  outline: none;
+}
+
+textarea {
+  border: none;
+  overflow: auto;
+  resize: none;
+  outline: none;
+}
+
+select {
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  cursor: pointer;
+}
+
+a,
+a:active,
+a:hover,
+a:focus {
+  text-decoration: none;
+  text-decoration-line: none;
+  outline: none;
+}
+
+.text {
+  font: 25/33 "OpenSans-Bold";
+  text-align: center;
+  color: #333134;
+}
+
+a,
+span,
+strong,
+b,
+select {
+  display: inline-block;
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+
+.container {
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.customInput {
+  overflow: hidden;
+  padding: 10px 10px;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: "row";
+  background-color: #ffffff;
+}
+.customInput input {
+  font: 15px "OpenSans-Regular";
+  color: #8c8c8c;
+  display: flex;
+  width: 100%;
+}
+
+.btnComponent {
+  overflow: hidden;
+  border-radius: 3px;
+  padding: 10px 10px;
+  background-color: #ff873a;
+  font: 17px/20px "OpenSans-Bold";
+  text-transform: uppercase;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: all 0.5s ease-in;
+}
+.btnComponent:hover {
+  background-color: #ffffff;
+  color: #363437;
+}
+
+.dropDownParent {
+  position: relative;
+}
+.dropDownParent:hover .dropDownContent {
+  display: block;
+  transition: all 0.8s linear;
+}
+.dropDownParent .customDropDown {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 3px;
+  padding: 10px 10px;
+  background-color: #ffffff;
+}
+.dropDownParent .customDropDown span {
+  font: 15px/24px "OpenSans-Regular";
+  color: #8c8c8c;
+  display: flex;
+  width: 100%;
+}
+.dropDownParent .dropDownContent {
+  display: none;
+  background-color: #ffffff;
+  position: absolute;
+  margin-top: 4px;
+  min-width: 100%;
+  box-shadow: 1px 2px 3px #363437;
+  border-radius: 3px;
+}
+.dropDownParent .dropDownContent a {
+  float: left;
+  display: block;
+  min-width: 100%;
+  padding: 5px 10px;
+  text-decoration-line: none;
+  padding: 5px 5px;
+  font: 15px/20px "OpenSans-Light";
+  color: #8c8c8c;
+  text-align: left;
+}
+.dropDownParent .dropDownContent a:hover {
+  color: #ff873a;
+}/*# sourceMappingURL=Components.css.map */
