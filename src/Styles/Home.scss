@@ -35,7 +35,7 @@
   }
 
   .carousel-control-prev-icon {
-    background-image: url("../assets/images/prevIcon.svg");
+    background-image: url("/public/images/prevIcon.svg");
     background-size: 100% 100%;
     height: 4rem;
     width: 4rem;
@@ -47,7 +47,7 @@
   }
 
   .carousel-control-next-icon {
-    background-image: url("../assets/images/nextIcon.svg");
+    background-image: url("/public/images/nextIcon.svg");
     background-size: 100% 100%;
     height: 4rem;
     width: 4rem;
@@ -432,7 +432,7 @@
         position: unset;
 
         &::after {
-          @include btn(url("../assets/images/arrowNext.png"));
+          @include btn(url("/public/images/arrowNext.png"));
           position: absolute;
           top: -85px;
           bottom: 0;
@@ -451,7 +451,7 @@
         position: unset;
 
         &::after {
-          @include btn(url("../assets/images/arrowPrev.png"));
+          @include btn(url("/public/images/arrowPrev.png"));
           position: absolute;
           top: -85px;
           bottom: 0;

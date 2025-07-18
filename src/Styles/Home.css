@@ -154,7 +154,7 @@ li {
   width: 5%;
 }
 .hero1 .carousel-control-prev-icon {
-  background-image: url("../assets/images/prevIcon.svg");
+  background-image: url("/public/images/prevIcon.svg");
   background-size: 100% 100%;
   height: 4rem;
   width: 4rem;
@@ -163,7 +163,7 @@ li {
   width: 5%;
 }
 .hero1 .carousel-control-next-icon {
-  background-image: url("../assets/images/nextIcon.svg");
+  background-image: url("/public/images/nextIcon.svg");
   background-size: 100% 100%;
   height: 4rem;
   width: 4rem;
@@ -549,7 +549,7 @@ li {
   width: 30px;
   height: 30px;
   padding: 10px;
-  background-image: url("../assets/images/arrowNext.png");
+  background-image: url("/public/images/arrowNext.png");
   background-repeat: no-repeat;
   background-size: 10px 10px contain;
   background-position: center;
@@ -577,7 +577,7 @@ li {
   width: 30px;
   height: 30px;
   padding: 10px;
-  background-image: url("../assets/images/arrowPrev.png");
+  background-image: url("/public/images/arrowPrev.png");
   background-repeat: no-repeat;
   background-size: 10px 10px contain;
   background-position: center;
