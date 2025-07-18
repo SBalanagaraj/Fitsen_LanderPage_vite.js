@@ -1,5 +1,5 @@
 import React from "react";
-import footerLogo from "../assets/images/Fotter_Logo.png";
+import footerLogo from "/public/images/Fotter_Logo.png";
 import { TbSend } from "react-icons/tb";
 import { IoCloseSharp } from "react-icons/io5";
 import { ImFacebook } from "react-icons/im";

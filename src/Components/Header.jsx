@@ -1,6 +1,6 @@
 import React from "react";
 import "../Styles/header.css";
-import logo from "../assets/images/logo_fitsen.png";
+import logo from "/public/images/logo_fitsen.png";
 import { FaCaretDown } from "react-icons/fa6";
 import { Flag } from "semantic-ui-react";
 import { RiMenu3Fill } from "react-icons/ri";
