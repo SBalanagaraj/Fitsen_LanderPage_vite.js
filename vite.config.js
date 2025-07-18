@@ -4,5 +4,5 @@ import react from "@vitejs/plugin-react";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "/Fitsen_LanderPage_vite.js",
+  base: "/Fitsen_LanderPage_vite.js/",
 });

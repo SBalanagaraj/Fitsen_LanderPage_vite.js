@@ -1,32 +1,32 @@
 @font-face {
   font-family: "OpenSans-Bold";
-  src: url("/src/./assets/fonts/OpenSans-Bold.eot");
-  src: url("/src/./assets/fonts/OpenSans-Bold.eot?#iefix") format("embedded-opentype"), url("/src/./assets/fonts/OpenSans-Bold..otf") format("otf"), url("/src/./assets/fonts/OpenSans-Bold.svg#OpenSans-Medium") format("svg"), url("/src/./assets/fonts/OpenSans-Bold.woff2") format("woff2"), url("/src/./assets/fonts/OpenSans-Bold.woff") format("woff"), url("/src/./assets/fonts/OpenSans-Bold..ttf") format("truetype");
+  src: url("/public/fonts/OpenSans-Bold.eot");
+  src: url("/public/fonts/OpenSans-Bold.eot?#iefix") format("embedded-opentype"), url("/public/fonts/OpenSans-Bold..otf") format("otf"), url("/public/fonts/OpenSans-Bold.svg#OpenSans-Medium") format("svg"), url("/public/fonts/OpenSans-Bold.woff2") format("woff2"), url("/public/fonts/OpenSans-Bold.woff") format("woff"), url("/public/fonts/OpenSans-Bold..ttf") format("truetype");
 }
 @font-face {
   font-family: "OpenSans-Light";
-  src: url("/src/./assets/fonts/OpenSans-Light.eot");
-  src: url("/src/./assets/fonts/OpenSans-Light.eot?#iefix") format("embedded-opentype"), url("/src/./assets/fonts/OpenSans-Light..otf") format("otf"), url("/src/./assets/fonts/OpenSans-Light.svg#OpenSans-Medium") format("svg"), url("/src/./assets/fonts/OpenSans-Light.woff2") format("woff2"), url("/src/./assets/fonts/OpenSans-Light.woff") format("woff"), url("/src/./assets/fonts/OpenSans-Light..ttf") format("truetype");
+  src: url("/public/fonts/OpenSans-Light.eot");
+  src: url("/public/fonts/OpenSans-Light.eot?#iefix") format("embedded-opentype"), url("/public/fonts/OpenSans-Light..otf") format("otf"), url("/public/fonts/OpenSans-Light.svg#OpenSans-Medium") format("svg"), url("/public/fonts/OpenSans-Light.woff2") format("woff2"), url("/public/fonts/OpenSans-Light.woff") format("woff"), url("/public/fonts/OpenSans-Light..ttf") format("truetype");
 }
 @font-face {
   font-family: "OpenSans-Medium";
-  src: url("/src/./assets/fonts/OpenSans-Medium.eot");
-  src: url("/src/./assets/fonts/OpenSans-Medium.eot?#iefix") format("embedded-opentype"), url("/src/./assets/fonts/OpenSans-Medium..otf") format("otf"), url("/src/./assets/fonts/OpenSans-Medium.svg#OpenSans-Medium") format("svg"), url("/src/./assets/fonts/OpenSans-Medium.woff2") format("woff2"), url("/src/./assets/fonts/OpenSans-Medium.woff") format("woff"), url("/src/./assets/fonts/OpenSans-Medium..ttf") format("truetype");
+  src: url("/public/fonts/OpenSans-Medium.eot");
+  src: url("/public/fonts/OpenSans-Medium.eot?#iefix") format("embedded-opentype"), url("/public/fonts/OpenSans-Medium..otf") format("otf"), url("/public/fonts/OpenSans-Medium.svg#OpenSans-Medium") format("svg"), url("/public/fonts/OpenSans-Medium.woff2") format("woff2"), url("/public/fonts/OpenSans-Medium.woff") format("woff"), url("/public/fonts/OpenSans-Medium..ttf") format("truetype");
 }
 @font-face {
   font-family: "OpenSans-Regular";
-  src: url("/src/./assets/fonts/OpenSans-Regular.eot");
-  src: url("/src/./assets/fonts/OpenSans-Regular.eot?#iefix") format("embedded-opentype"), url("/src/./assets/fonts/OpenSans-Regular..otf") format("otf"), url("/src/./assets/fonts/OpenSans-Regular.svg#OpenSans-Medium") format("svg"), url("/src/./assets/fonts/OpenSans-Regular.woff2") format("woff2"), url("/src/./assets/fonts/OpenSans-Regular.woff") format("woff"), url("/src/./assets/fonts/OpenSans-Regular..ttf") format("truetype");
+  src: url("/public/fonts/OpenSans-Regular.eot");
+  src: url("/public/fonts/OpenSans-Regular.eot?#iefix") format("embedded-opentype"), url("/public/fonts/OpenSans-Regular..otf") format("otf"), url("/public/fonts/OpenSans-Regular.svg#OpenSans-Medium") format("svg"), url("/public/fonts/OpenSans-Regular.woff2") format("woff2"), url("/public/fonts/OpenSans-Regular.woff") format("woff"), url("/public/fonts/OpenSans-Regular..ttf") format("truetype");
 }
 @font-face {
   font-family: "OpenSans-SemiBold";
-  src: url("/src/./assets/fonts/OpenSans-SemiBold.eot");
-  src: url("/src/./assets/fonts/OpenSans-SemiBold.eot?#iefix") format("embedded-opentype"), url("/src/./assets/fonts/OpenSans-SemiBold..otf") format("otf"), url("/src/./assets/fonts/OpenSans-SemiBold.svg#OpenSans-Medium") format("svg"), url("/src/./assets/fonts/OpenSans-SemiBold.woff2") format("woff2"), url("/src/./assets/fonts/OpenSans-SemiBold.woff") format("woff"), url("/src/./assets/fonts/OpenSans-SemiBold..ttf") format("truetype");
+  src: url("/public/fonts/OpenSans-SemiBold.eot");
+  src: url("/public/fonts/OpenSans-SemiBold.eot?#iefix") format("embedded-opentype"), url("/public/fonts/OpenSans-SemiBold..otf") format("otf"), url("/public/fonts/OpenSans-SemiBold.svg#OpenSans-Medium") format("svg"), url("/public/fonts/OpenSans-SemiBold.woff2") format("woff2"), url("/public/fonts/OpenSans-SemiBold.woff") format("woff"), url("/public/fonts/OpenSans-SemiBold..ttf") format("truetype");
 }
 @font-face {
   font-family: "Oswald-Bold";
-  src: url("/src/./assets/fonts/Oswald-Bold.eot");
-  src: url("/src/./assets/fonts/Oswald-Bold.eot?#iefix") format("embedded-opentype"), url("/src/./assets/fonts/Oswald-Bold..otf") format("otf"), url("/src/./assets/fonts/Oswald-Bold.svg#OpenSans-Medium") format("svg"), url("/src/./assets/fonts/Oswald-Bold.woff2") format("woff2"), url("/src/./assets/fonts/Oswald-Bold.woff") format("woff"), url("/src/./assets/fonts/Oswald-Bold..ttf") format("truetype");
+  src: url("/public/fonts/Oswald-Bold.eot");
+  src: url("/public/fonts/Oswald-Bold.eot?#iefix") format("embedded-opentype"), url("/public/fonts/Oswald-Bold..otf") format("otf"), url("/public/fonts/Oswald-Bold.svg#OpenSans-Medium") format("svg"), url("/public/fonts/Oswald-Bold.woff2") format("woff2"), url("/public/fonts/Oswald-Bold.woff") format("woff"), url("/public/fonts/Oswald-Bold..ttf") format("truetype");
 }
 * {
   margin: 0;

@@ -1,12 +1,12 @@
-import car1 from "../assets/images/car_1.png";
-import car2 from "../assets/images/car1_2.png";
-import car3 from "../assets/images/car1_3.png";
-import car4 from "../assets/images/car1_4.png";
-import car2_1 from "../assets/images/car2_1.png";
-import car2_2 from "../assets/images/car2_2.png";
-import car2_logo1 from "../assets/images/car2_logo1.png";
-import car2_logo2 from "../assets/images/car2_logo2.png";
-import car2_logo3 from "../assets/images/car2_logo3.png";
+import car1 from "/public/images/car_1.png";
+import car2 from "/public/images/car1_2.png";
+import car3 from "/public/images/car1_3.png";
+import car4 from "/public/images/car1_4.png";
+import car2_1 from "/public/images/car2_1.png";
+import car2_2 from "/public/images/car2_2.png";
+import car2_logo1 from "/public/images/car2_logo1.png";
+import car2_logo2 from "/public/images/car2_logo2.png";
+import car2_logo3 from "/public/images/car2_logo3.png";
 
 // TextContentBlock
 export const textContent = [

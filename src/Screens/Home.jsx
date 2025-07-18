@@ -1,11 +1,11 @@
 import Carousel from "react-bootstrap/Carousel";
 import { useRef, useState } from "react";
 
-import sliderImg from "../assets/images/hero_Banner1.png";
-import sliderImg2 from "../assets/images/hero_Banner2.png";
-import sliderImg3 from "../assets/images/hero_Banner_3.png";
+import sliderImg from "/public/images/hero_Banner1.png";
+import sliderImg2 from "/public/images/hero_Banner2.png";
+import sliderImg3 from "/public/images/hero_Banner_3.png";
 
-import videos from "../assets/Videos/cycleDrive.mp4";
+import videos from "/public/Videos/cycleDrive.mp4";
 import InputComponent from "../Components/InputComponent";
 import { FaPlay } from "react-icons/fa";
 import { IoSearch } from "react-icons/io5";

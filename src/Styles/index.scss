@@ -25,14 +25,13 @@ $fonts: $SB, $SL, $SM, $SR, $SSB, $OB;
 @each $ff in $fonts {
   @font-face {
     font-family: "#{$ff}";
-    src: url("/src/./assets/fonts/#{$ff}.eot");
-    src: url("/src/./assets/fonts/#{$ff}.eot?#iefix")
-        format("embedded-opentype"),
-      url("/src/./assets/fonts/#{$ff}..otf") format("otf"),
-      url("/src/./assets/fonts/#{$ff}.svg#OpenSans-Medium") format("svg"),
-      url("/src/./assets/fonts/#{$ff}.woff2") format("woff2"),
-      url("/src/./assets/fonts/#{$ff}.woff") format("woff"),
-      url("/src/./assets/fonts/#{$ff}..ttf") format("truetype");
+    src: url("/public/fonts/#{$ff}.eot");
+    src: url("/public/fonts/#{$ff}.eot?#iefix") format("embedded-opentype"),
+      url("/public/fonts/#{$ff}..otf") format("otf"),
+      url("/public/fonts/#{$ff}.svg#OpenSans-Medium") format("svg"),
+      url("/public/fonts/#{$ff}.woff2") format("woff2"),
+      url("/public/fonts/#{$ff}.woff") format("woff"),
+      url("/public/fonts/#{$ff}..ttf") format("truetype");
   }
 }
 
